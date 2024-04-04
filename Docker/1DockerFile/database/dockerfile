@@ -1,0 +1,10 @@
+# Use the official MongoDB image from Docker Hub
+FROM mongo:latest
+
+
+
+# Expose MongoDB default port
+EXPOSE 27017
+
+# Command to run MongoDB with custom port
+CMD ["mongod", "--port", "27017"]
