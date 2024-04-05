@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docker frontend</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+  
+ 
+    <div class="container mt-4 mb-3 p-2 border rounded border-dark">
+        <form id="dataForm">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="nameInput"
+              aria-describedby="nameHelp"
+              placeholder="What is your name?"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="foodInput"
+              placeholder="What is your favorite food?"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="majorInput"
+              placeholder="What are you majoring in?"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="hobbiesInput"
+              placeholder="What are your hobbies? (e.g., play soccer, read books)"
+            />
+          </div>
+          <div class="container d-flex justify-content-center align-content-center">
+            <button type="submit" id="submitButton" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      
+
+      <div class="container mt-4 mb-4 d-flex justify-content-center align-content-center">
+        <div class="row" id="apiResponse">
+            
+        </div>
+    </div>
+    
+   
+    
+  
+    
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
