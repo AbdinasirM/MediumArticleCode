@@ -7,6 +7,7 @@ First, clone the project repository from GitHub:
 
 ## 2. Making Changes to Files
 
+
 **Disclaimer:** These changes are intended for local development only, which is why I've hardcoded the IP addresses.
 
    a. Open the `main.py` file located in the `backend` directory.
